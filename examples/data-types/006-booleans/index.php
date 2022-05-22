@@ -10,9 +10,17 @@
  */
 
 if (5>1) {
-  echo "True";
+  echo "True\n";
 } else {
-  echo "False";
+  echo "False\n";
+}
+
+$random = true;
+
+if (is_bool($random)) {
+  echo "True\n";
+} else {
+  echo "False\n";
 }
 
 ?>
